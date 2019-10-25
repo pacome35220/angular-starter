@@ -6,6 +6,7 @@
         "start": "ng serve",
         "build": "ng build",
         "commit": "git-cz",
+        "precommit": "lint-staged",
         "prettify": "prettier --config .prettierrc --write '{*.json,src/**/*.{js,ts,scss,css,html,json}}'"
     },
     "private": true,
@@ -32,9 +33,17 @@
         "@types/node": "~8.9.4",
         "commitizen": "^4.0.3",
         "cz-conventional-changelog": "^3.0.2",
+        "husky": "^3.0.9",
+        "lint-staged": "^9.4.2",
         "prettier": "1.18.2",
         "ts-node": "~7.0.0",
         "typescript": "~3.5.3"
+    },
+    "lint-staged": {
+        "{*.json,src/**/*.{js,ts,scss,css,html,json}}": [
+            "prettier --config .prettierrc --write",
+            "git add"
+        ]
     },
     "config": {
         "commitizen": {
