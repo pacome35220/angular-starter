@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/pacome35220/angular-starter/compare/v1.0.0...v1.1.0) (2019-12-06)
+
+
+### Features
+
+* **app:** real feat test ([157189d](https://github.com/pacome35220/angular-starter/commit/157189dc615928b2b23f35da72dc674d77eb00f0))
+
 ## [1.0.0](https://github.com/pacome35220/angular-starter/compare/v0.1.1...v1.0.0) (2019-12-06)
 
 
