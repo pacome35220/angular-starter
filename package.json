@@ -7,7 +7,7 @@
         "build": "ng build",
         "commit": "git-cz",
         "prettify": "prettier --config .prettierrc --write '{*.json,src/**/*.{js,ts,scss,css,html,json}}'",
-        "release": "standard-version"
+        "release": "standard-version && git push --follow-tags"
     },
     "private": true,
     "dependencies": {
