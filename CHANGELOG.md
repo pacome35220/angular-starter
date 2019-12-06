@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/pacome35220/angular-starter/compare/v0.1.1...v1.0.0) (2019-12-06)
+
+
+### Features
+
+* **app:** production version now ([f08fa84](https://github.com/pacome35220/angular-starter/commit/f08fa84dc719886f19446d7c4ffb4ad8ef5828ae))
+
 ### [0.1.1](https://github.com/pacome35220/angular-starter/compare/v0.1.0...v0.1.1) (2019-12-06)
 
 
