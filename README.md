@@ -10,8 +10,8 @@ It also and above all contains configurations for very usefull tools i use for m
 
 ### [Prettier](github.com/prettier/prettier)
 
-* `npm run prettify`, lint all files following rules wrote in `.prettierrc`
+* `npm run prettify`, lint all files following rules wrote in [.prettierrc](./.prettierrc)
 
 ### [Conventional-changelog / standard-version](https://github.com/conventional-changelog/standard-version)
 
-* `npm run release`, automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org
+* `npm run release`, automate versioning and [CHANGELOG](./CHANGELOG.md) generation, with semver.org and conventionalcommits.org
